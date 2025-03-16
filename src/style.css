@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'M PLUS Code Latin', monospace;
+  font-optical-sizing: auto;
+}
+
+.container {
+  display: flex;
+  width: 200vw;
+  height: 100vh;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide1,
+.slide2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.slide1 {
+  background: url('./public/Contacta_ARF.webp') center/cover no-repeat;
+}
+
+.slide2 {
+  background: url('./public/LinkedIn_ARF.webp') center/cover no-repeat;
+}
+.slide1 > p {
+  height: 30px;
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  color: black;
+  position: absolute;
+  top: 50px;
+  text-align: left;
+  padding-left: 20px;
+}
+.text1 {
+  color: black;
+  position: absolute;
+  top: 170px;
+  width: 70%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background: black;
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 700;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.btn1 {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 80px;
+  color: #eeff1d;
+}
+.btn2 {
+  background-color: #eeff1d;
+}
+.btn3 {
+  background-color: white;
+}
+
+.btn1:hover,
+.btn2:hover {
+  background: white;
+  color: black;
+}
+.btn3:hover {
+  background: #eeff1d;
+  color: black;
+}
+.list {
+  font-size: 1.2em;
+  text-align: right;
+  padding-right: 20px;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+.dest {
+  color: #eeff1d;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 80px;
+}
