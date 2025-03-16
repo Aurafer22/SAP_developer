@@ -19,15 +19,15 @@ html {
 
 .container {
   display: flex;
-  width: 200vw;
-  height: 100vh;
+  width: 200svw;
+  height: 100svh;
   transition: transform 0.5s ease-in-out;
 }
 
 .slide1,
 .slide2 {
-  width: 100vw;
-  height: 100vh;
+  width: 100svw;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   color: white;
@@ -36,11 +36,11 @@ html {
 }
 
 .slide1 {
-  background: url('./public/Contacta_ARF.webp') center/cover no-repeat;
+  background: url('./Contacta_ARF.webp') center/cover no-repeat;
 }
 
 .slide2 {
-  background: url('./public/LinkedIn_ARF.webp') center/cover no-repeat;
+  background: url('./LinkedIn_ARF.webp') center/cover no-repeat;
 }
 .slide1 > p {
   height: 30px;
