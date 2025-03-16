@@ -46,3 +46,21 @@ document.addEventListener('touchend', function (event) {
     moveSlide(0)
   }
 })
+
+function checkScreenSize() {
+  const container = document.querySelector('.container')
+  if (!container) return
+
+  if (window.innerWidth >= 845) {
+    container.style.width = '100vw'
+    container.style.display = 'flex'
+    container.style.flexDirection = 'row'
+  } else {
+    container.style.width = '200vw'
+    container.style.display = 'flex'
+    container.style.flexDirection = 'row'
+  }
+}
+
+window.addEventListener('resize', checkScreenSize)
+document.addEventListener('DOMContentLoaded', checkScreenSize)

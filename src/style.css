@@ -118,8 +118,9 @@ h1 {
 .buttons {
   width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: right;
   gap: 10px;
   position: absolute;
-  bottom: 80px;
+  bottom: 60px;
+  right: 40px;
 }
