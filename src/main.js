@@ -49,16 +49,19 @@ document.addEventListener('touchend', function (event) {
 
 function checkScreenSize() {
   const container = document.querySelector('.container')
+  const deslice = document.querySelector('.desliza')
   if (!container) return
 
   if (window.innerWidth >= 845) {
     container.style.width = '100vw'
     container.style.display = 'flex'
     container.style.flexDirection = 'row'
+    deslice.style.display = 'none'
   } else {
     container.style.width = '200vw'
     container.style.display = 'flex'
     container.style.flexDirection = 'row'
+    deslice.style.display = 'flex'
   }
 }
 
