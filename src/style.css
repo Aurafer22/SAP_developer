@@ -69,7 +69,8 @@ h1 {
 
 .btn1,
 .btn2,
-.btn3 {
+.btn3,
+.btn4 {
   margin-top: 20px;
   padding: 15px 30px;
   font-size: 1.2em;
@@ -88,7 +89,8 @@ h1 {
   bottom: 60px;
   color: #eeff1d;
 }
-.btn2 {
+.btn2,
+.btn4 {
   background-color: #eeff1d;
 }
 .btn3 {
@@ -96,7 +98,8 @@ h1 {
 }
 
 .btn1:hover,
-.btn2:hover {
+.btn2:hover,
+.btn4:hover {
   background: white;
   color: black;
 }

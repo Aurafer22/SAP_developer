@@ -2,6 +2,7 @@ import './style.css'
 
 const buttonContact = document.querySelector('.btn1')
 const buttonLinkedIn = document.querySelector('.btn2')
+const buttonGitHub = document.querySelector('.btn4')
 const buttonCV = document.querySelector('.btn3')
 let slider = document.getElementById('slider')
 let touchStartX = 0
@@ -21,6 +22,9 @@ function irLinkedIn() {
     '_blank'
   )
 }
+function irGitHub() {
+  window.open('https://github.com/Aurafer22?tab=repositories', '_blank')
+}
 function downloadPDF() {
   const aDownload = document.createElement('a')
   aDownload.href = 'CV_dev_ARF.pdf'
@@ -32,6 +36,7 @@ function downloadPDF() {
 }
 buttonContact.addEventListener('click', contactar)
 buttonLinkedIn.addEventListener('click', irLinkedIn)
+buttonGitHub.addEventListener('click', irGitHub)
 buttonCV.addEventListener('click', downloadPDF)
 
 document.addEventListener('touchstart', function (event) {
