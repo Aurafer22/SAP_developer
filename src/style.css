@@ -89,9 +89,20 @@ h1 {
   bottom: 60px;
   color: #eeff1d;
 }
+.btn2 {
+  background-image: url('/linkedin.png');
+  background-size: 40px 40px;
+}
+
+.btn4 {
+  background-image: url('github.png');
+  background-size: 50px 50px;
+}
 .btn2,
 .btn4 {
   background-color: #eeff1d;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .btn3 {
   background-color: white;
@@ -102,6 +113,16 @@ h1 {
 .btn4:hover {
   background: white;
   color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn2:hover {
+  background-image: url('linkedin.png');
+  background-size: 40px 40px;
+}
+.btn4:hover {
+  background-image: url('github.png');
+  background-size: 50px 50px;
 }
 .btn3:hover {
   background: #eeff1d;
