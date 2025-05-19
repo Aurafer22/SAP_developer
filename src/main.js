@@ -23,8 +23,8 @@ function irLinkedIn() {
 }
 function downloadPDF() {
   const aDownload = document.createElement('a')
-  aDownload.href = 'ARF_cv.pdf'
-  aDownload.download = 'ARF_cv.pdf'
+  aDownload.href = 'CV_dev_ARF.pdf'
+  aDownload.download = 'CV_dev_ARF.pdf'
   aDownload.setAttribute('target', '_blank')
   document.body.appendChild(aDownload)
   aDownload.click()
