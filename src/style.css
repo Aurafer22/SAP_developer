@@ -95,7 +95,7 @@ h1 {
 }
 
 .btn4 {
-  background-image: url('github.png');
+  background-image: url('/github.png');
   background-size: 50px 50px;
 }
 .btn2,
@@ -117,11 +117,11 @@ h1 {
   background-position: center;
 }
 .btn2:hover {
-  background-image: url('linkedin.png');
+  background-image: url('/linkedin.png');
   background-size: 40px 40px;
 }
 .btn4:hover {
-  background-image: url('github.png');
+  background-image: url('/github.png');
   background-size: 50px 50px;
 }
 .btn3:hover {
